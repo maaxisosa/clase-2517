@@ -1,0 +1,23 @@
+* {
+    background-color:red;
+}
+
+h2 {
+    background-color:blue;
+    color: chartreuse;
+}
+
+#tituloh3 {
+    background-color: white;
+}
+
+#cosmefulanito {
+    background-color: aqua;
+}
+.titulo {
+    background-color: darkmagenta;
+    color: white;
+}
+.subrayado {
+    text-decoration: underline;
+}
