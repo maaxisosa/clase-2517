@@ -1,0 +1,26 @@
+.caja {
+    width: 200px;
+    height: 200px;
+    padding-left: 50px;
+    padding-right: 25px;
+    padding-top: 15px;
+    padding-bottom: 35px;
+    padding: 15px 25px 35px 50px;
+    border-style: solid;
+    border-width: 10px;
+    border-color: black;
+    border-radius: 10px;
+    
+    
+    margin-top: 60px;
+    margin-left: 70px;
+    background-color: blue;
+}
+
+.boton1 {
+    margin-right: 50px;
+}
+
+.boton2 {
+    padding-left: 70px;
+}
