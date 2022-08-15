@@ -30,7 +30,6 @@ body {
 }
 
 form {
-    margin: 0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -63,4 +62,31 @@ input {
     height: 30px;
     border-radius: 15px;
     border-style: none;
+}
+
+@media (max-width:1250px) {
+  .contenedor-login {
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+ }
+}
+
+
+.img-estatua {
+    min-width: 150px;
+    margin-top: 40px;
+    border: 3px white solid;
+    border-radius: 100%;
+}
+
+form {
+    width: 70%;
+    padding: 40px;
+}
+
+@media (max-width:800px) {
+    .contenedor-login {
+        width: 60%;
+    }
 }
